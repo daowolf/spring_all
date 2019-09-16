@@ -1,3 +1,6 @@
-hello\WebSecurityConfig.class
-hello\MvcConfig.class
+hello\auth\MyAuthenticationFailureHandler.class
+hello\config\MyUserDetailsServer.class
+hello\config\WebSecurityConfig.class
+hello\auth\MyAuthenticationSuccessHandler.class
 hello\Application.class
+hello\config\MvcConfig.class

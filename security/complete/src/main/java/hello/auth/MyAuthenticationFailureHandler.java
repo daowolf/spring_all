@@ -23,7 +23,7 @@ public class MyAuthenticationFailureHandler implements AuthenticationFailureHand
 
     @Override
     public void onAuthenticationFailure(HttpServletRequest arg0, HttpServletResponse response, AuthenticationException authentication)
-            throws IOException, ServletException {
+            throws IOException {
 
         logger.info(authentication.getMessage()+"---登录失败");
         response.setHeader("content-type","text/html;charset=UTF-8");
