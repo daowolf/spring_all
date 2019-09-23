@@ -10,7 +10,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)//什么时候使用该注解，我们定义为运行时
 @Target({ElementType.METHOD})//注解用于什么地方，我们定义为作用于方法上
 @Documented//注解是否包含在JavaDoc中;
-public interface WebLog {//注解名为WebLog
+public @interface WebLog {//注解名为WebLog
     /**
      * 日志描述信息
      *
